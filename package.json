@@ -1,0 +1,19 @@
+{
+  "name": "umzug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "migrate:up": "node -e 'require(\"./umzug\").up()'",
+    "migrate:down": "node -e 'require(\"./umzug\").down()'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3",
+    "umzug": "^3.8.1"
+  }
+}
